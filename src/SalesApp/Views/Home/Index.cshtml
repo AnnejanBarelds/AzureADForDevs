@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (ViewBag.IsColorSet == true)
+{
+    <div id="coloredbodyheader">
+        <p>
+            Gouvieux Sales App - Welcome
+        </p>
+    </div>
+}
+else
+{
+<div id="bodyheader">
+    <p>
+        Gouvieux Sales App - Welcome
+    </p>
+</div>
+}
